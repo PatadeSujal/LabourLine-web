@@ -15,7 +15,7 @@ function DownloadHandler() {
     if (shouldAutoDownload) {
       const downloadApk = () => {
         const link = document.createElement("a");
-        link.href = "/LabourLine.apk";
+        link.href = "https://github.com/PatadeSujal/LabourLine-web/releases/download/v1.0.0/LabourLine.apk";
         link.download = "LabourLine.apk";
         document.body.appendChild(link);
         link.click();
@@ -58,7 +58,7 @@ export default function LabourLineLandingPage() {
             </div>
             
             <a
-              href="/LabourLine.apk"
+              href="https://github.com/PatadeSujal/LabourLine-web/releases/download/v1.0.0/LabourLine.apk"
               className="px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold rounded-full transition-colors flex items-center gap-2"
             >
               <Download className="w-4 h-4" />
@@ -94,7 +94,7 @@ export default function LabourLineLandingPage() {
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="/LabourLine.apk"
+                  href="https://github.com/PatadeSujal/LabourLine-web/releases/download/v1.0.0/LabourLine.apk"
                   className="w-full sm:w-auto px-8 py-4 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white rounded-2xl font-bold text-lg transition-all shadow-lg hover:shadow-orange-500/25 flex items-center justify-center gap-3"
                 >
                   <Download className="w-6 h-6" />
@@ -197,7 +197,7 @@ export default function LabourLineLandingPage() {
               Join thousands of users who are changing how local labor is hired. Download the app today.
             </p>
             <a
-              href="/LabourLine.apk"
+              href="https://github.com/PatadeSujal/LabourLine-web/releases/download/v1.0.0/LabourLine.apk"
               className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white rounded-2xl font-bold text-lg transition-all shadow-lg hover:shadow-orange-500/25"
             >
               <Download className="w-6 h-6" />
